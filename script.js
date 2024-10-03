@@ -44,7 +44,7 @@ fetch(URL)
                 const imageCell = row.insertCell(3)
                 // Création d'un élément 'img' pour afficher le genre de l'utilisateur
                 const genderImage = document.createElement('img');
-                genderImage.src = "/Debian/home/noe/TP_JS_Fetch_API/img/homme.png"
+                genderImage.src = "/Debian/home/nletournel/TP/RandomUser/img/mars.png"
                 imageCell.appendChild(genderImage);
             }
             
@@ -55,7 +55,7 @@ fetch(URL)
                 const imageCell = row.insertCell(3)
                 // Création d'un élément 'img' pour afficher le genre de l'utilisateur
                 const genderImage = document.createElement('img');
-                genderImage.src = "/Debian/home/noe/TP_JS_Fetch_API/img/femme.png"
+                genderImage.src = "/Debian/home/nletournel/TP/RandomUser/img/femenine.png"
                 imageCell.appendChild(genderImage);
             }
             row.insertCell(4).textContent = user.location.city;
