@@ -1,4 +1,4 @@
-//Défintiion de l'URL à appeler
+//Défintion de l'URL à appeler
 const URL = "https://randomuser.me/api?results=50";
 
 
@@ -64,5 +64,3 @@ fetch(URL)
         })
     }
 )
-
-// icônes faites par le graphiste Stockio
